@@ -1,0 +1,233 @@
+{
+    "nav": [
+        {
+            "id": "0",
+            "title": "127.0.0.1",
+            "link": "/"
+        },
+        {
+            "id": "1",
+            "title": "Work",
+            "link": "/work"
+        },
+        {
+            "id": "2",
+            "title": "Contact",
+            "link": "/contact"
+        },
+        {
+            "id": "3",
+            "title": "About",
+            "link": "/about"
+        }
+    ],
+    "work": [
+        {
+            "id": "0",
+            "url": "gifpaint",
+            "title": "gifpaint.in",
+            "img": "ezgif.com-754a7b199a.gif",
+            "link": "https://gifpaint.hulea.org/",
+            "siteInfo": "<p>There are a lot of odd spaces in the internet, one of which is the animated gif. After completing yourimage.io, I was interested in extending the idea of random image collage and image painting to make use of animated content.</p><p> Utilizing gif.js, native canvas api and imgur I was able to create a website that has the ability to paint and collage with animated content. I want to add more brushes and the ability to save and share the artwork that is created.</P>"
+        },
+        {
+            "id": "1",
+            "url": "yourimage",
+            "title": "yourimage.io",
+            "img": "1464932541.png",
+            "link": "https://yourimage.hulea.org/",
+            "siteInfo": "<p>I used the JavaScript canvas API and paper.js to create this website. It allows users to use their mouse or touch device to paint with images from the Imgur API.</p><p> The program also allows user to save their creation </p><p> Using the combination of the unknown (Not knowing which image will be next), collage (<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Collage\">https://en.wikipedia.org/wiki/Collage</a>), and a version of action painting (<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Action_painting\">https://en.wikipedia.org/wiki/Action_painting</a>) the results become unique artwork to share.</p><p> I move this logic forward with the gif paint program I also developing.</p>"
+        },
+        {
+            "id": "3",
+            "url": "nhm",
+            "title": "nhm.org",
+            "img": "nhm1.jpg",
+            "link": "https://nhm.org/",
+            "siteInfo": "<p>For the main NHM site I coded a step-by-step field trip sign-up mechanism for the education department, with specific logic that catered to very specific needs. I wrote the new homepage design that updated an aging design with a more pointed and strategic design, that benefited not only use of the page but also leveraging possible analytic conversion.</p><p> I added a custom calendar front end and back end solution that works with Drupal, providing end points that can power multiple contexts throughout the site. I worked with our digital designer to add a modernized basic template and uses a new menu that makes us of Drupal’s menu system so it could be maintained by Drupal’s GUI.</p><p>I also designed and coded the <a href='https://nhm.org/site/research-collections/news' target='_blank'>Research & Collections News part of the site</p>"
+        },
+        {
+            "id": "4",
+            "url": "ptero",
+            "title": "nhm.org/pterosaurs",
+            "img": "ptero.jpg",
+            "link": "https://nhm.org/pterosaurs/",
+            "siteInfo": "<p>I converted old code from a game the institution paid for several years ago into a robust, responsive game that allows users to determine what pterosaur they “were,” based on question logic.</p><p> The entire site was built off a responsive framework that I developed, because I needed all the code to play together, and a framework would have slowed the process. I created a “pterosaur tracker” that used the Google maps API and JS to show a pterosaur fly across the U.S., making stops on its way to the museum. </p><p>I utilized the JS Canvas API to create an image that would follow the rotational position of the KML points which gave a feeling of the pterosaur actually flying. I used requestAnimationFrame and the rendering engine which provided the pterosaur flying on the Google Map with 60fps, allowing fluid animation and preventing jitter.</p>"
+        },
+        {
+            "id": "5",
+            "url": "nature",
+            "title": "nhm.org/nature",
+            "img": "nature.jpg",
+            "link": "https://nhm.org/nature/",
+            "siteInfo": "<p>Drupal 7 Site with custom built Blog.</p><p>I worked with Hello Design to build the Nature Map using Google Maps API and Inaturalist API to showcase urban nature in Los Angeles</p><p></p>"
+        }
+    ],
+    "cv": [
+        {
+            "header": "PROFESSIONAL EXPERIENCE",
+            "class": "work",
+            "items": [
+                {
+                    "header": "2017-PRESENT J. Paul Getty Museum and Trust - Software Engineer",
+                    "items": [
+                        "Internal Project Dashboard to monitor project development and milestones - Frontend: Vue, Vue-cli, Vuex, Vue-Router Backend: Wordpress, WP Rest API",
+                        "External and Internal search Backend: Apache Nutch, Elasticsearch Frontend: Vue, Vue-cli, Vue-Router",
+                        "Maintainer Getty Publications command line project called Quire to convert markdown files into html, epub, mobi, pdf and development server",
+                        "Quire leverages Nodejs, Hugo (Static Site Generator), Pandoc (Files Converter), Prince XML (convert html to pdf)",
+                        "New Docent Website Frontend: Vue, Vuex Backend: Wordpress",
+                        "Docent Site was a major refactor since the last site was built 7 years ago. The sites had a scheduling system and based off the that created a custom frontend experience for wach user based on their role and schedule"
+                    ]
+                },
+                {
+                    "header": "2013-2017 Natural History Family of Museums - Lead Digital Developer",
+                    "items": [
+                        "Project lead and strategist for all digital properties and projects",
+                        "Admin several LAMP and MEAN systems on 3 servers",
+                        "Form development client side and server side development",
+                        "Integrated development between datasets from multi backends (MYSQL and MongoDB) and APIs",
+                        "Made use of Google Maps API to create and interactive Google map tracking app",
+                        "Various JavaScript development (interactive, utility, game) using React and Redux"
+                    ]
+                },
+                {
+                    "header": "2012-2013 The Confluence Group - Creative Director/Web Director",
+                    "items": [
+                        "Responsible for 3D animation with 3Ds Max and Vray",
+                        "Created various promotional sites for our affiliates Frontend: Backbone.js Backend: NodeJS or PHP",
+                        "Retouched photos and edited promotional videos",
+                        "Maintained Drupal 7 database for reporting",
+                        "For data visualizations for reporting using D3.js and Highcharts.js"
+                    ]
+                },
+                {
+                    "header": "2009-2012 Flaunt Magazine - Digital Design Director",
+                    "items": [
+                        "Controlled the flow of all visual media within Flaunt Magazine’s web and print media pipeline",
+                        "Created advertising, cover, and special insert design",
+                        "Maintained and facilitated all technology at the office, including, large-format printers, web and LAN servers, cameras, computers, and software",
+                        "Organized and edited a large range of media types, from streaming video to 3D models and high-resolution graphics",
+                        "CMS front end and back end development (Drupal)"
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "FREELANCE",
+            "class": "freelance",
+            "items": [
+                {
+                    "header": "ACLU",
+                    "items": [
+                        "Built Drupal 7 module to make new optional frontend styles for content",
+                        "These features were created for the Southern California ACLU but were pushed to the national sites"
+                    ]
+                },
+                {
+                    "header": "Adult Swim",
+                    "items": [
+                        "Built Promotional website for new show 'Black Jesus'",
+                        "The website made use of the Javascript Canvas API "
+                    ]
+                },
+                {
+                    "header": "Cat Bounce",
+                    "items": [
+                        "Rebuilt Flash website to JavaScript using Matter JS and Webpack 4"
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "EDUCATION",
+            "class": "ed",
+            "items": [{
+                "header": "Otis College of Art and Design Los Angeles, California 2002-06",
+                "items": []
+            }]
+        },
+        {
+            "header": "PERSONAL PROJECTS - see hulea.org",
+            "class": "personal",
+            "items": [
+                {
+                    "header": "Websites & Art",
+                    "items": [
+                        "2016 http://4dchat.hulea.org/",
+                        "2014 http://gifpaint.hulea.org/",
+                        "2013 http://yourimage.hulea.org/",
+                        "2010 http://unitedstatesian.com/"
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "SKILLS",
+            "class": "skills",
+            "items": [
+                {
+                    "header": "Creative, philosophical thinking based in logical and algorithmic coding experience and know-how to create unique solutions for all design and development problems. Expert knowledge of creative and development software in Linux, Windows and Mac.",
+                    "items": []
+                },
+                {
+                    "header": "Languages, Systems Frameworks and Software",
+                    "items": [
+                        "Drupal 7, 8",
+                        "JavaScript ES6",
+                        "Zend Framework",
+                        "MYSQL",
+                        "MongoDB",
+                        "PHP",
+                        "Python",
+                        "Django",
+                        "Angular 2",
+                        "Ruby",
+                        "HighchartsJS",
+                        "HTML",
+                        "CSS",
+                        "SCSS",
+                        "Flash AS3",
+                        "XML",
+                        "JSON",
+                        "AWS",
+                        "Git",
+                        "Apache",
+                        "Nginx",
+                        "Varnish",
+                        "Vue",
+                        "React",
+                        "Erlang",
+                        "Larvel",
+                        "NodeJS",
+                        "Backbone",
+                        "Underscore",
+                        "Backdrop",
+                        "C",
+                        "OpenCV",
+                        "Caffe",
+                        "Tensorflow",
+                        "Wordpress",
+                        "JAVA",
+                        "Eclipse",
+                        "D3"
+                    ]
+                }
+            ]
+        },
+        {
+            "header": "AWARDS",
+            "class": "awards",
+            "items": [
+                {
+                    "header": "",
+                    "items": [
+                        "Certificate of achievement from Mayor Antonio Villaraigosa for revitalization project",
+                        "Folio Ozzie Award",
+                        "Best Overall Design, Consumer Silver Award - Flaunt Magazine April, 2010",
+                        "Best Cover, Consumer Under 250,000 Circulation Bronze Award - Flaunt Magazine: The Census Issue April, 2010"
+                    ]
+                }
+            ]
+        }
+    ]
+}

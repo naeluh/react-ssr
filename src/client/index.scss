@@ -1,0 +1,34 @@
+/* @import 'bulma'; */
+@import 'scss/main.scss';
+@import 'scss/normalize.scss';
+
+.bk {
+  background-color: rgb(17, 17, 17);  
+}
+
+.detail-list {
+  padding-left: 1.5em;
+  margin-bottom: 0.25em;
+  list-style-type: circle;
+}
+
+.skills > ul {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+       column-count: 3;
+       list-style-type: none;
+       padding-left: 1em;
+}
+
+.detail-list li {
+  margin-bottom: 0.25em;
+  line-height: 1em
+}
+
+.hide {
+  display: none
+}
+
+.fa {
+  font-size: 12px
+}
